@@ -1,5 +1,5 @@
 {
-  "name": "kritter-frontend",
+  "name": "mock-restaurant",
   "version": "1.0.0",
   "engines": {
     "node": "8.1.2"
@@ -25,7 +25,7 @@
     "coverageDirectory": "./coverage"
   },
   "keywords": [],
-  "author": "kritter",
+  "author": "",
   "license": "MIT",
   "dependencies": {
     "aws-sdk": "^2.137.0",
