@@ -16,3 +16,4 @@ class AppContainer extends React.Component {
 }
 
 ReactDom.render(<AppContainer />, document.getElementById('root'));
+import {Provider} from 'react-redux';
