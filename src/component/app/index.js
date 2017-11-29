@@ -1,7 +1,6 @@
 import React from 'react';
 import {BrowserRouter, Route, Redirect} from 'react-router-dom';
 import Navbar from '../navbar';
-import * as utils from '../.../lib/utils';
 import Appetizer from '../appetizer';
 import Entree from '../entree';
 import Sides from '../sides';

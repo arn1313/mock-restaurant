@@ -8,17 +8,13 @@ class Navbar extends React.Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="header-container">
         <header className="header-world">
-          <div className="kritter-header">
-            <img className="kritter-logo" height="50px" width="50px"/>
+            <img className="logo" height="50px" width="50px"/>
             <Link to="/appetizer"><h2>Appetizer</h2></Link>
             <Link to="/entree"><h2>Entree</h2></Link>
             <Link to="/sides"><h2>Sides</h2></Link>
             <Link to="/contact"><h2>Contact</h2></Link>
-          </div>
-          <div className="nav-header">
-          </div>
         </header>
       </div >
     );
