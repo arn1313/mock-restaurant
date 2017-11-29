@@ -5,9 +5,10 @@ class Sides extends React.Component {
     return (
     <div className="sides">
       <h3>Side Orders</h3>
-      <img/>
+      <img src="./src/imgs/SideOrder.png"/>
 
       <h3>Desserts & Beverages</h3>
+      <img src="./src/imgs/DessertsBevs.png"/>
     </div>
     );
   }
