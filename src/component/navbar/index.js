@@ -1,6 +1,5 @@
 import React from 'react';
 // import './_navbar.scss';
-import * as utils from '../../lib/utils';
 import {Link} from 'react-router-dom';
 
 
