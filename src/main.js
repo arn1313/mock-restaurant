@@ -9,7 +9,7 @@ class AppContainer extends React.Component {
 
   render() {
     return (
-        <App />
+      <App />
     );
   }
 }

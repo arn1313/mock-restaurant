@@ -8,6 +8,7 @@ import Contact from '../contact';
 import Footer from '../footer';
 import Spice from '../spice';
 import Disclaimer from '../disclaimer';
+import Gallery from '../gallery';
 
 class App extends React.Component {
   render() {
@@ -21,6 +22,7 @@ class App extends React.Component {
             <Route exact path="/appetizer" component={Appetizer}/>
             <Route exact path="/entree" component={Entree}/>
             <Route exact path="/sides" component={Sides}/>
+            <Route exact path="/gallery" component={Gallery}/>
             <Route exact path="/contact" component={Contact}/>
             <Disclaimer/>
             <Footer/>
