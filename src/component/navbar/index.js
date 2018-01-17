@@ -13,6 +13,7 @@ class Navbar extends React.Component {
           <Link to="/appetizer"><h2>Appetizer</h2></Link>
           <Link to="/entree"><h2>Entree</h2></Link>
           <Link to="/sides"><h2>Sides</h2></Link>
+          <Link to="/gallery"><h2>Photo Gallery</h2></Link>
           <Link to="/contact"><h2>Contact</h2></Link>
         </header>
       </div >
