@@ -5,7 +5,7 @@ class Gallery extends React.Component {
     return (
       <div className="gallery">
         <h3></h3>
-        <img src="./src/imgs/Appetizers.png" alt="A list of appetizers available at this site"/>
+        <img src="./src/imgs/.png" alt="Photos of Dishes Availible"/>
 
         <h3></h3>
         <p></p>
