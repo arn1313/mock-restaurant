@@ -1,6 +1,7 @@
 import React from 'react';
-// import './_navbar.scss';
+import './_navbar.scss';
 import {Link} from 'react-router-dom';
+
 
 
 class Navbar extends React.Component {
@@ -8,8 +9,8 @@ class Navbar extends React.Component {
   render() {
     return (
       <div className="header-container">
+        <img className="logo" src="src/imgs/Logo.png"/>
         <header className="header-world">
-          <img className="logo" height="50px" width="50px"/>
           <Link to="/appetizer"><h2>Appetizer</h2></Link>
           <Link to="/entree"><h2>Entree</h2></Link>
           <Link to="/sides"><h2>Sides</h2></Link>
