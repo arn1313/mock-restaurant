@@ -10,25 +10,25 @@ class Gallery extends React.Component {
 
         <ul className="images">
 
-          <li><p>Avacado Curry</p> <img src="src/imgs/AvocadoCurry.jpeg" alt="Avacado Curry"/></li>
+          <li className="gallery-column"><p>Avacado Curry</p> <img src="src/imgs/AvocadoCurry.jpeg" alt="Avacado Curry"/></li>
 
-          <li><p>Kao Soi</p><img src="src/imgs/KaoSoi.jpeg" alt="Kao Soi noodles"/></li>
+          <li className="gallery-column"><p>Kao Soi</p><img src="src/imgs/KaoSoi.jpeg" alt="Kao Soi noodles"/></li>
 
-          <li><p>Moo Yang</p><img src="src/imgs/MooYang.jpeg" alt="Moo Yang"/></li>
+          <li className="gallery-column"><p>Moo Yang</p><img src="src/imgs/MooYang.jpeg" alt="Moo Yang"/></li>
 
-          <li><p>Orange Chicken</p><img src="src/imgs/OrangeChicken.jpeg" alt="Orange Chicken"/></li>
+          <li className="gallery-column"><p>Orange Chicken</p><img src="src/imgs/OrangeChicken.jpeg" alt="Orange Chicken"/></li>
 
-          <li><p>Phad See Ew</p><img src="src/imgs/PhadSeeEw.jpeg" alt="Phad See Ew"/></li>
+          <li className="gallery-column"><p>Phad See Ew</p><img src="src/imgs/PhadSeeEw.jpeg" alt="Phad See Ew"/></li>
 
-          <li><p>Potstickers</p><img src="src/imgs/potstickers.jpeg" alt="Potstickers"/></li>
+          <li className="gallery-column"><p>Potstickers</p><img src="src/imgs/potstickers.jpeg" alt="Potstickers"/></li>
 
-          <li><p>Shrimp Pad Thai</p><img src="src/imgs/ShrimpPadThai.jpeg" alt="Shrimp Pad Thai"/></li>
+          <li className="gallery-column"><p>Shrimp Pad Thai</p><img src="src/imgs/ShrimpPadThai.jpeg" alt="Shrimp Pad Thai"/></li>
 
-          <li><p>Swimming Rama</p><img src="src/imgs/SwimmingRama.jpeg" alt="Swimming Rama"/></li>
+          <li className="gallery-column"><p>Swimming Rama</p><img src="src/imgs/SwimmingRama.jpeg" alt="Swimming Rama"/></li>
 
-          <li><p>Tom Kha Soup</p><img src="src/imgs/TomKhaSoup.jpeg" alt="Tom Kha Soup"/></li>
+          <li className="gallery-column"><p>Tom Kha Soup</p><img src="src/imgs/TomKhaSoup.jpeg" alt="Tom Kha Soup"/></li>
 
-          <li><p>Tom Yum Noodle Soup</p><img src="src/imgs/TomYumNoodleSoup.jpeg" alt="Tom Yum Noodle Soup"/></li>
+          <li className="gallery-column"><p>Tom Yum Noodle Soup</p><img src="src/imgs/TomYumNoodleSoup.jpeg" alt="Tom Yum Noodle Soup"/></li>
         </ul>
       </div>
     );
