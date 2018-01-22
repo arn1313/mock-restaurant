@@ -1,0 +1,157 @@
+// * {
+//   outline: 1px solid purple;
+// }
+
+body {
+  margin: 0 auto;
+  font-size: 1.5em;
+  line-height: 1.6;
+  font-weight: 400;
+  background-color: white;
+  // background-image: url("https://ak1.ostkcdn.com/images/products/8367239/Black-Paw-Print-Tracks-Vinyl-Art-Quote-2b8aa210-db61-47e0-8fcd-3fb35c08e345_600.jpg");
+  background-attachment: fixed;
+  background-repeat: repeat-x;
+  background-position: bottom;
+  font-family: 'Roboto', sans-serif;
+}
+
+.post, form, aside{
+  background-color: white;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: orange;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.columns {
+  width: 100%;
+  float: left;
+  box-sizing: border-box;
+}
+
+@media (min-width: 400px) {
+  .container {
+    // width: 85%;
+    padding: 0; }
+}
+
+@media (min-width: 550px) {
+  .container {
+     }
+  .columns {
+   }
+
+
+
+  .three.columns{ width: 22%; }
+  // .six.columns  { width: 48%; }
+  .nine.columns { width: 74.0%; }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300; }
+
+input,
+textarea {
+height: 3em;
+background-color: white;
+border: 0px;
+border-top: 1px solid #D1D1D1;
+border-left: 1px solid #D1D1D1;
+border-radius: 0px;
+padding: .6em .6em;
+box-shadow: none;
+box-sizing: border-box;
+margin-bottom: 1.5rem;
+}
+
+textarea {
+  min-height: 65px;
+  padding-top: 1em;
+  padding-bottom: 6px;
+  resize: vertical;
+}
+
+input:focus
+ {
+  border: 0px;
+  border-bottom: 2px solid #42d1a8;
+  // border-bottom: 1px solid black;
+  outline: 0; }
+
+textarea:focus {
+  border: 0px;
+  border-bottom: 2px solid #42d1a8;
+  border-left: 2px solid #42d1a8;
+  // border-bottom: 1px solid black;
+  // border-left: 1px solid black;
+  outline: 0;
+}
+
+label
+ {
+  display: block;
+  margin-bottom: .2em;
+  font-weight: 200;
+ }
+
+//  label > .label-body {
+//   display: inline-block;
+//   margin-left: .5rem;
+//   font-weight: normal; }
+
+  form {
+    background-color: white;
+    padding-right: 2em;
+  }
+
+
+button
+ {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: white;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: capitalize;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #42d1a8;
+  // border-radius: 4px;
+  border: 1px solid white;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+button:hover,
+button:focus
+ {
+  color: white;
+  // background-color: #42d1b9;
+  border-color: black;
+  outline: 0; }
+
+  .u-full-width {
+    width: 100%;
+    box-sizing: border-box; }

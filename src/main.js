@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 import App from './component/app';
+import './style/main.scss';
 
 
-// import './style/main.scss';
 
 class AppContainer extends React.Component {
 
