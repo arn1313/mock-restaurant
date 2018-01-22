@@ -1,4 +1,6 @@
 import React from 'react';
+import './_gallery.scss';
+
 
 class Gallery extends React.Component {
   render() {
@@ -6,7 +8,7 @@ class Gallery extends React.Component {
       <div className="gallery">
         <h3>Treats</h3>
 
-        <ul class="images">
+        <ul className="images">
 
           <li><p>Avacado Curry</p> <img src="src/imgs/AvocadoCurry.jpeg" alt="Avacado Curry"/></li>
 
