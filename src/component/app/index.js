@@ -1,4 +1,5 @@
 import React from 'react';
+import './_app.scss';
 import {BrowserRouter, Route, Redirect} from 'react-router-dom';
 import Navbar from '../navbar';
 import Appetizer from '../appetizer';
@@ -15,7 +16,7 @@ class App extends React.Component {
     return (
       <div className="application">
         <BrowserRouter>
-          <div>
+          <main>
             <Navbar/>
             <Spice/>
             //HERO IMAGE
@@ -26,7 +27,7 @@ class App extends React.Component {
             <Route exact path="/contact" component={Contact}/>
             <Disclaimer/>
             <Footer/>
-          </div>
+          </main>
         </BrowserRouter>
       </div>
     );
