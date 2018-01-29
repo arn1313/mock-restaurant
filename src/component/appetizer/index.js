@@ -18,8 +18,10 @@ class Appetizer extends React.Component {
 
         <h3>Soup</h3>
         <p>Served with your choice of chicken, pork, tofu, or veggies. Please add $2 for beef or prawns/seafood $4. </p>
-        <img src="./src/imgs/Soup.png"/>
-
+        <p>Small $6 / Large $10</p>
+        <h2>S1 Tom Yum Soup - hot & sour soup with mushrooms, onions, tomatoes, lemon grass, lime leaf and cilantro</h2>
+        <h2>S2 Tom Kha Soup - hot % sour soup with coconut milk, lemon grass, lime leaf, mushroom, inions and cilantro</h2>
+        <h2>S3 Wonton Soup - wonton wrapper filled with ground pork and prawns in a peppery broth with spinach, green leaf, cilantro and roasted garlic</h2>
         <h3>Salad</h3>
         <img src="./src/imgs/Salads.png"/>
       </div>
